@@ -21,24 +21,17 @@ A simple and clean architecture .NET 8.0 REST API for managing car rentals with 
 
 ## Quick Start
 
-### Using Docker Compose (Recommended)
+### Using Docker
 
 ```bash
-docker-compose up -d
+docker-compose up
 ```
 
-Access the API at: **http://localhost:5000/swagger**
+Access the API at: **http://localhost:8080/swagger**
 
 Stop the container:
 ```bash
 docker-compose down
-```
-
-### Using Docker
-
-```bash
-docker build -t car-rental-api .
-docker run -p 5000:8080 car-rental-api
 ```
 
 ### Using .NET CLI
