@@ -1,6 +1,6 @@
 # Car Rental System
 
-A simple and clean architecture .NET 8.0 REST API for managing car rentals with automatic price calculation.
+A simple car rental application with price calculation on .NET 8
 
 ## Features
 
